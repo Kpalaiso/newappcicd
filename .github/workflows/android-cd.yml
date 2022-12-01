@@ -26,7 +26,7 @@ jobs:
           key: ${{ runner.os }}-pods-${{ hashFiles('**/Podfile.lock') }}
           restore-keys: |
             ${{ runner.os }}-pods-
-      - run: yarn install --frozen-lockfile
+      - run: npm install
 
       - run: pod install
         working-directory: ios
