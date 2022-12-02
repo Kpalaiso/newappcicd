@@ -23,7 +23,7 @@ DerivedData
 *.ipa
 *.xcuserstate
 
-# Android/IntelliJ
+# Android/Intelli
 #
 .idea
 .gradle
