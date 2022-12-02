@@ -81,9 +81,8 @@ jobs:
           path: android/app/build/outputs/bundle/release/app-release.aab
       
       - name: upload artifact to Firebase App Distribution
-        uses: wzieba/Firebase-Distribution-Github-Action@v1.2.1
+        uses: wzieba/Firebase-Distribution-Github-Action@v1
         with:
-          node-version: 16.4.0
           appId: ${{secrets.FIREBASE_APP_ID}}
           token: ${{secrets.FIREBASE_TOKEN}}
           groups: testers
