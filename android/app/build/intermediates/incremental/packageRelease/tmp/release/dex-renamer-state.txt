@@ -1,0 +1,4 @@
+#Thu Dec 01 20:41:40 GMT 2022
+base.0=/Users/admin/app/kaifinance/newappcicd/android/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
