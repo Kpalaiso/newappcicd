@@ -6,7 +6,7 @@
 #
 !/build/
 /build/**
-!/build/outputs/
+!/build/outputs/apk/release
 *.pbxuser
 !default.pbxuser
 *.mode1v3
